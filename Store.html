@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Shoe Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .product:hover {
+      transform: scale(1.02);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+
+    .description {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .description p {
+      margin: 10px 0 0;
+      font-size: 16px;
+    }
+
+    .description b {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1> Trendy FootWears - Online FootWears Store</h1>
+    <p>Click on a product to view more details</p>
+  </header>
+
+  <div class="product-grid">
+    <div class="product">
+      <a href="sneaker.html">
+        <img src="images/Air_Jordan_Low.webp" alt="Air_Jordan_Low_">
+      </a>
+      <div class="description">
+        <b>Haloween Air Jordan Low</b>
+        <p>$2,500</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <a href="comfyshoe.html">
+        <img src="images/sport.png" alt="Nike Runner Sport Shoe">
+      </a>
+      <div class="description">
+        <b>Nike Runner Sport Shoe</b>
+        <p>$200</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <a href="Boots.html">
+        <img src="images/Boots.jpg" alt="CR7xNike Football Boots">
+      </a>
+      <div class="description">
+        <b>CR7xNike Football Boots</b>
+        <p>$3,000</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <a href="MountainBoots.html">
+        <img src="images/MountainBoots.jfif" alt="Mammut Kento Mountain Boots">
+      </a>
+      <div class="description">
+        <b>Mammut Kento Mountain Boots</b>
+        <p>$999</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
